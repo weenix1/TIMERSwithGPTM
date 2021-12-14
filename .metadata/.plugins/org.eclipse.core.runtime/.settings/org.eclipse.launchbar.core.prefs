@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:ADC,org.eclipse.launchbar.core.descriptorType.default\:TIMERSwithGPTM,org.eclipse.launchbar.core.descriptorType.default\:TestUartCom,org.eclipse.launchbar.core.descriptorType.default\:MyFirstBlinky,org.eclipse.launchbar.core.descriptorType.default\:ccs-project-0-linux,org.eclipse.launchbar.core.descriptorType.default\:ccs-project-0-macOS,org.eclipse.launchbar.core.descriptorType.default\:ccs0
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ADC/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:ADC/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:UART/activeLaunchMode=run

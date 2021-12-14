@@ -1,0 +1,41 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../linker_config.cmd 
+
+C_SRCS += \
+../IntPortJHandler.c \
+../main.c \
+../startup_ccs.c 
+
+C_DEPS += \
+./IntPortJHandler.d \
+./main.d \
+./startup_ccs.d 
+
+OBJS += \
+./IntPortJHandler.obj \
+./main.obj \
+./startup_ccs.obj 
+
+OBJS__QUOTED += \
+"IntPortJHandler.obj" \
+"main.obj" \
+"startup_ccs.obj" 
+
+C_DEPS__QUOTED += \
+"IntPortJHandler.d" \
+"main.d" \
+"startup_ccs.d" 
+
+C_SRCS__QUOTED += \
+"../IntPortJHandler.c" \
+"../main.c" \
+"../startup_ccs.c" 
+
+

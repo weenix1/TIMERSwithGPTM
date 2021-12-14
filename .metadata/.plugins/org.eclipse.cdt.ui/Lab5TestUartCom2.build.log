@@ -1,0 +1,28 @@
+
+**** Build of configuration Debug for project Lab5TestUartCom2 ****
+
+"C:\\ti\\ccs1030\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../portJHandler.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1030/ccs/tools/compiler/ti-cgt-arm_20.2.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/pc/OneDrive/Documents/SemesterFour/Microcontroller/TIMERSwithGPTM/Lab5TestUartCom2" --include_path="C:/Applications/ti/SW-TM4C-2.1.4.178" --include_path="C:/ti/ccs1030/ccs/tools/compiler/ti-cgt-arm_20.2.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="portJHandler.d_raw"  "../portJHandler.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'portJHandler.obj' failed
+"../portJHandler.c", line 1: fatal error #1965: cannot open source file "inc/tm4c1294ncpdt.h"
+1 catastrophic error detected in the compilation of "../portJHandler.c".
+Compilation terminated.
+gmake: *** [portJHandler.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1030/ccs/tools/compiler/ti-cgt-arm_20.2.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/pc/OneDrive/Documents/SemesterFour/Microcontroller/TIMERSwithGPTM/Lab5TestUartCom2" --include_path="C:/Applications/ti/SW-TM4C-2.1.4.178" --include_path="C:/ti/ccs1030/ccs/tools/compiler/ti-cgt-arm_20.2.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C1294NCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 6: fatal error #1965: cannot open source file "inc/tm4c1294ncpdt.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

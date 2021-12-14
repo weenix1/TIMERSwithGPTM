@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Lab4TestUartCom ****
+
+"C:\\ti\\ccs1030\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Lab4TestUartCom.out' is up to date.
+
+**** Build Finished ****

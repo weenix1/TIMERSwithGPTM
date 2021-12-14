@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TestUartCom.zip_expanded</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<variableList>
+		<variable>
+			<name>TivaWare</name>
+			<value>file:/C:/ti/TivaWare_C_Series-2.1.4.178</value>
+		</variable>
+	</variableList>
+</projectDescription>
